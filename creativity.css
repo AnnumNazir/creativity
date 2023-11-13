@@ -1,0 +1,267 @@
+* {
+    
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+
+
+video {width: 100%;
+    height: 100vh;
+    object-fit:cover ;
+    z-index: -1;
+    position: fixed;
+
+}
+.container{width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.39);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    position: fixed;
+    z-index:2;
+    
+    
+}
+
+#logo{ 
+  
+     color: white;
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-shadow: 10px 5px 20px rgb(12, 12, 12);
+}
+
+
+#nav ul{ list-style: none;
+display: flex;
+  
+     
+}
+
+
+#nav ul li{padding: 10px 20px;
+    color: white;
+  text-transform: uppercase;
+  font-size: larger;
+  font-weight: bolder;
+  text-shadow: 10px 5px 20px black;
+
+}
+
+#nav ul li a {text-decoration: none;
+    color: white;
+    text-shadow: 10px 5px 20px black;
+    transition: 0.3s all;
+}
+
+    #nav ul li a:hover {color:rgb(245, 226, 55) ;
+
+    }
+    .hov-line::after{content:"";
+        display: block;
+        width:0% ;
+        height: 2px;
+        background-color:rgb(245, 226, 55) ;
+        transition:width 0.3s;
+
+    }
+    .hov-line:hover::after{ width: 100%;
+        transition:width 0.3s;
+
+    }
+    .hov-line::before{content:"";
+        display: block;
+        width:0% ;
+        height: 2px;
+        background-color:rgb(245, 226, 55) ;
+        transition:width 0.3s;
+
+    }
+    .hov-line:hover::before{ width: 100%;
+        transition:width 0.3s;
+
+    }
+
+   
+
+   
+    #main {
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.39);
+        z-index: 0;
+    }
+    #page1 {
+width: 100%;
+height: 100vh;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+z-index: 10;
+color: antiquewhite;
+    }
+    #page1 h1 {
+        font-size: 2.5vw;
+        font-weight: bold;
+        position: relative;
+        font-family: monsterrat;
+        text-shadow: 10px 2px 10px rgb(245, 226, 55);
+        
+    }
+
+    #page1 h2 {
+        font-size: 3.5vw;
+        font-weight: bold;
+        position: relative;
+        font-family: monsterrat;
+        text-shadow: -10px -5px 10px black;
+
+        
+    }
+   #page1 p {
+        font-size: 1.5vw;
+       
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 30px;
+        text-shadow: 10px 5px 10px rgb(12, 12, 12);
+   }
+
+   #btn {
+    font-size: 1.5vw;
+    width: 180px;
+    height: 50px;
+   
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    text-shadow: 10px 5px 10px rgb(12, 12, 12);
+    border-radius: 25px 25px;
+    box-shadow:inset 5px -0px 3px 3px rgb(12, 12, 12);
+}
+
+#btn:hover {color:rgb(245, 226, 55) ;
+    background-color: black;
+
+}
+#abt h1 { font-size: 2.5vw;
+    font-weight: bold;
+    position: relative;
+    font-family: monsterrat;
+    text-shadow: 10px 2px 10px rgb(245, 226, 55);
+    color: white;
+    text-align: center;
+
+}
+
+#abt p {
+    font-size: 1.5vw;
+    color: white;
+    position: relative;
+    font-family: monsterrat;
+    line-height: 30px;
+    text-shadow: 10px 5px 10px rgb(12, 12, 12);
+border: 2px solid black; width: 55%;height: 50%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+box-shadow:inset 0px 0px 5px 2px rgb(245, 226, 55);
+border-radius: 10px 10px;
+display: block;
+
+}
+.icon{width: 50%;
+    
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 5px;
+   
+
+}
+
+.icon ul{ list-style: none;
+display: flex;
+justify-content: space-between;
+position: relative;
+top: 10%;
+padding-left: 5%;
+padding: 10px 35px;  } 
+
+
+.icon ul li{display: flex;
+    float: center;
+    text-shadow: -5px 2px 10px rgb(236, 236, 233);
+       
+        
+
+} 
+    .icon ul li a:hover {color:rgb(245, 226, 55) ;}
+
+        .hov-line1::after{content:"";
+            display: block;
+            width:0% ;
+            height: 2px;
+            background-color:rgb(245, 226, 55) ;
+            transition:width 0.3s;
+    
+        }
+        .hov-line1:hover::after{ width: 100%;
+            transition:width 0.3s;
+    
+        }
+        .hov-line1::before{content:"";
+            display: block;
+            width:0% ;
+            height: 2px;
+            background-color:rgb(245, 226, 55) ;
+            transition:width 0.3s;
+    
+        }
+        .hov-line1:hover::before{ width: 100%;
+            transition:width 0.3s;
+    
+        }
+
+        footer {width: 100%;
+            height: 200px;
+            border: 1px solid black;
+            background-color: rgba(0, 0, 0, 0.39);
+            box-shadow:inset 5px -0px 3px 3px black;
+            margin-top: 50px;
+
+        }
+        footer img{width: 80%;
+            height: 130px;
+          padding-left: 40%;
+          padding-right: 20%;
+          padding-top: 2%;
+          
+         
+        
+          
+       
+          
+      
+            
+           
+            
+
+        }
+         
+    
+    
+
+    
+    
+
+
+
+
+ 
